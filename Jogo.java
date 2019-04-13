@@ -108,7 +108,7 @@ public class Jogo {
         for (int i = 0; i < this.tabelaJogo.length; i++) {
             for ( int j = 0; j < this.tabelaJogo.length; j++) {
                 if (this.tabelaJogo[i][j] != "~~") {
-                    System.out.println("Acertou");
+                    System.out.print("Acertou");
                 }
             }
         }

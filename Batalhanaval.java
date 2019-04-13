@@ -12,7 +12,7 @@ public class Batalhanaval {
         pc.criarnavioTanque(1, 0);
         pc.criarContratorpedeiro();
         pc.criarSubmarino();
-        pc.mostrarTabela();
+        //pc.mostrarTabela();
         
         System.out.println("=*=*=*=* Inicio do jogo batalha naval *=*=*=*=");
         System.out.println("Criando jogador");
@@ -30,7 +30,7 @@ public class Batalhanaval {
         String resp = teclado.nextLine();
             if (resp.equals("nao")) {
                 System.out.println("tebela construida");
-                guilherme.percorrerTabela(3, 4);
+                pc.percorrerTabela(3, 4);
                 break;
                
             }
